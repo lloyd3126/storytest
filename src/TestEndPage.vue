@@ -6,11 +6,15 @@
       </el-col>
       <el-col :span="12">
         <h1>測驗結束頁</h1>
-        <p>測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束測驗結束</p>
+        <p
+          style="text-align: left; text-indent: 32px;"
+        >本篇故事告一段落，您是否還想知道關於氣候變遷的其他故事?請輸入造訪 者編號送出瀏覽資料後，再按「首頁」繼續經歷其他故事。如果全部故事都已經 體驗完畢，在此感謝您的造訪和撥冗參加。</p>
+
+        <p style="text-align: left; text-indent: 32px;">敬祝 身體健康 平安快樂。</p>
 
         <el-card class="box-card" shadow="hover" style="width: 100%; margin-bottom:10px;">
           <div slot="header" class="clearfix">
-            <span>請輸入受試者編號並送出本次測驗資料</span>
+            <span>請輸入造訪者編號並送出本次瀏覽資料</span>
           </div>
           <el-form class="demo-form-inline">
             <el-form-item>
@@ -21,7 +25,7 @@
         </el-card>
         <el-card class="box-card" shadow="hover" style="width: 100%">
           <div slot="header" class="clearfix">
-            <span>確認受試者已完成受測後點擊按鈕回到首頁</span>
+            <span>點擊按鈕回到「首頁」，體驗另一個情境故事。</span>
           </div>
           <el-form class="demo-form-inline">
             <el-form-item>

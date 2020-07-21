@@ -8,13 +8,13 @@
         @select="handleSelect"
       >
         <el-menu-item index="1">
-          <router-link to="/test">測驗畫面</router-link>
+          <router-link to="/test">故事畫面</router-link>
         </el-menu-item>
         <el-menu-item index="2">
           <a
             href="https://docs.google.com/spreadsheets/d/1VORQl4nnKqEzfctwlWlNngA00EdBgCWb7NNVlTpblqA/"
             target="_blank"
-          >測驗結果</a>
+          >瀏覽資料</a>
         </el-menu-item>
       </el-menu>
     </div>
