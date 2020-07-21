@@ -13,12 +13,12 @@
             </el-card>
           </el-col>
           <el-col :span="24" :key="2" v-show="!isLoad">
-            <el-card shadow="never" :body-style="{ padding: '0px'}">
-              <div class="cht-image" style="position: relative;">
-                <div
-                  class="loader"
-                  style="position: absolute; top: 50%; left: 50%; transfrom: translate(50%, 50%)"
-                ></div>
+            <el-card
+              shadow="never"
+              :body-style="{ padding: '0', margin: '0',width: '100%', position: 'relative', height: '60px'}"
+            >
+              <div class="cht-image">
+                <div class="loader"></div>
               </div>
             </el-card>
           </el-col>
@@ -155,10 +155,12 @@ export default {
   display: inline-block;
 }
 
-/* .cht-image {
-  width: 100%;
-  height: 60px;
-} */
+.cht-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 #cht-image {
   width: 100%;

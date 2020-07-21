@@ -10,7 +10,7 @@
         <el-menu-item index="1">
           <router-link to="/test">故事畫面</router-link>
         </el-menu-item>
-        <el-menu-item index="2">
+        <el-menu-item>
           <a
             href="https://docs.google.com/spreadsheets/d/1VORQl4nnKqEzfctwlWlNngA00EdBgCWb7NNVlTpblqA/"
             target="_blank"
@@ -25,23 +25,17 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue';
-import VueRouter from "vue-router";
-import Test from "./Test.vue";
-import TestHomePage from "./TestHomePage.vue";
-import TestEndPage from "./TestEndPage.vue";
+// import VueRouter from "vue-router";
+// import Test from "./Test.vue";
+// import TestHomePage from "./TestHomePage.vue";
+// import TestEndPage from "./TestEndPage.vue";
+// import router from "./router.vue";
 
 export default {
   name: "app",
   components: {
     // HelloWorld,
   },
-  router: new VueRouter({
-    routes: [
-      { path: "/test/", component: TestHomePage },
-      { path: "/test/:storyid", component: TestEndPage },
-      { path: "/test/:storyid/:chapterid", component: Test }
-    ]
-  }),
   data() {
     return {
       activeIndex: "1",

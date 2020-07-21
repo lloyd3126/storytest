@@ -32,7 +32,7 @@ export default {
       return this.$route.params.chapterid;
     },
     storyId() {
-      return this.$route.params.storyid;
+      return this.$route.meta.storyid;
     }
   },
   mounted() {
@@ -44,7 +44,8 @@ export default {
       C:
         "https://script.googleusercontent.com/macros/echo?user_content_key=QleCNFFp2mm3TdyUV1rSD9TpWMpm5PgCywlhBgO50gwyWHaOMMcjLbWWpQXK9QBxzq67fybDodDJP4KoGE5qV9gv_S9xkc_Xm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnAQW2Z2MRDB7XZqGRXyLFucP6pc-oRJhzyz8QdueZ-YAQ9HFdVgYpmhb6prIHlLXW4vAItAz81VzgMK9pVmsanA&lib=MzGxIdIgu6DGrLCNLsQ3RRplXkjGulmKX"
     };
-    axios.get(storyObj[this.$route.params.storyid]).then(response => {
+    console.log(this.$route.meta.storyid);
+    axios.get(storyObj[this.$route.meta.storyid]).then(response => {
       // console.log(response.data);
       let tempInfos = response.data;
       tempInfos.forEach(item => {

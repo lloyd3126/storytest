@@ -5,10 +5,12 @@
         <div class="grid-content bg-purple"></div>
       </el-col>
       <el-col :span="12">
-        <h1>測驗結束頁</h1>
-        <p
-          style="text-align: left; text-indent: 32px;"
-        >本篇故事告一段落，您是否還想知道關於氣候變遷的其他故事?請輸入造訪 者編號送出瀏覽資料後，再按「首頁」繼續經歷其他故事。如果全部故事都已經 體驗完畢，在此感謝您的造訪和撥冗參加。</p>
+        <h1>氣候變遷情境故事 結束頁</h1>
+        <p style="text-align: left; text-indent: 32px;">
+          本篇故事告一段落，您是否還想知道關於氣候變遷的其他故事?請輸入造訪
+          者編號送出瀏覽資料後，再按「首頁」繼續經歷其他故事。如果全部故事都已經
+          體驗完畢，在此感謝您的造訪和撥冗參加。
+        </p>
 
         <p style="text-align: left; text-indent: 32px;">敬祝 身體健康 平安快樂。</p>
 
